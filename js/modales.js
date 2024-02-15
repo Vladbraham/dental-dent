@@ -1,13 +1,13 @@
 const infoModal = [
    {
     id: 1,
-    title: "Limpieza",
+    title: "Odontopediatría",
     img: "images/limpieza.png",
-    info: "La limpieza dental profesional mejor llamado raspaje y alisado radicular con pulido coronal, se realiza con un equipo llamado ultrasonido el cual emite vibraciones que permiten desprender el sarro o cálculo que se ha ido acumulando en la superficie dental y espacios de difícil acceso para el cepillado dental común.",
-    text: "Incluye:",
-    text2: "Elementos de protección personal",
-    text3: "Educación y motivación en higiene oral",
-    text4: "Limpieza con ultrasonido, profilaxis y desmanchamiento",
+    info: "Es la rama de la odontología encargada de tratar a niños y recién nacidos. Desde el nacimiento hasta los 6 años, cuida de los dientes temporales y, a partir de los 12 años, controla el inicio de la dentición definitiva. ",
+    text: "¿Qué tratamientos infantiles realizamos? ",
+    text2: "Caries: Es una enfermedad del diente que se caracteriza por la destrucción de sus tejidos como consecuencia de la desmineralización provocada por los ácidos que genera la placa bacteriana.",
+    text3: "Traumatismos: Los traumatismos dentales son uno de las principales motivos por los que se visita al dentista.",
+    text4: "Maloclusiones: Las maloclusiones son uno de los problemas más habituales en salud bucodental, después de la caries. ",
     
    },
    {
@@ -15,7 +15,7 @@ const infoModal = [
     title: "Blanqueamiento",
     img: "images/blanqueamiento.png",
     info: "El aclaramiento dental también llamado Blanqueamiento dental, es un procedimiento estético el cual busca eliminar manchas amarillentas generando una tonalidad visiblemente más clara y llamativa.",
-    text: "En Dental Dent manejamos dos clases de aclaramientos y diferentes paquetes para lograr una mejor tonalidad:",
+    text: "En Dental Churubusco manejamos dos clases de aclaramientos y diferentes paquetes para lograr una mejor tonalidad:",
     text2: "El aclaramiento casero, que consta de una férula personalizada y al paciente se le entregan las geringas con el blanqueamiento para que lo realize el mismo en casa.",
     text3: "El aclaramiento clínico , el cual se realiza maximo 3 sesiones cada una de 15 minutos en un mismo día.",
     text4: "Es necesario una cita de valoración previa."
@@ -34,13 +34,13 @@ const infoModal = [
    },
    {
     id: 4,
-    title: "Cirugia Bucal",
+    title: "Odontología General",
     img: "images/cirugia-bucal.png",
-    info: "La cirugía oral hace referencia a cualquier procedimiento quirúrgico en la boca, maxilar y  mandíbula o alrededor de estas, generalmente hecho por un especialista dental capacitado para realizar ciertos tipos de cirugías orales.",
-    text: "Los tipos de cirugía más comunes:",
-    text2: "Cirugía dental de implantes dentales",
-    text3: "Cirugía dental en las encías",
-    text4: "Cirugía de terceros molares (muelas del juicio), frenilectomías y apicectomías."
+    info: "La Odontología General es la especialidad que se centra en el diagnóstico, tratamiento y prevención de los problemas primarios que tienen que ver con la salud bucodental. Incluye no sólo a los problemas que afectan a los dientes, sino también a las encías, el tejido periodontal y la articulación temporomandibular.",
+    text: "¿Qué enfermedades trata la odontología general?",
+    text2: "Caries: la caries dental es la destrucción de los tejidos de los dientes, causada por la presencia de ácidos producidos por bacterias de la placa depositada en las superficies dentales.",
+    text3: "Gingivitis: enfermedad bucal generalmente bacteriana que provoca inflamación y sangrado de las encías.",
+    text4: "Traumatismos dentales."
    },
    {
     id: 5,
@@ -67,7 +67,7 @@ const infoModal = [
     title: "Ortodoncia",
     img: "images/ortodoncia.png",
     info: "La especilidad de ortodoncia es la encargada de corregir la malposicion de los dientes, arcadas dentales y mordidas, con el fin de obtener una oclusion ideal mediante la colocación de aparatos y dispositivos correctivos.",
-    text: "Existen actualmente muchas técnicas ortodonticas para la alineación dental. En Dental Dent manejamos todas las técnicas actuales que son:",
+    text: "Existen actualmente muchas técnicas ortodonticas para la alineación dental. En Dental Churubusco manejamos todas las técnicas actuales que son:",
     text2: "Ortodoncia convecional",
     text3: "Ortodoncia de autoligado",
     text4: "Ortodoncia invisible con alineadores transparentes"
@@ -88,7 +88,7 @@ const infoModal = [
     title: "Cirugía mínimamente invasiva ",
     img: "images/invasiva.png",
     info: "La cirugía mínimamente invasiva es un nuevo concepto que se ha acuñado para hacer referencia a pequeñas incisiones y técnicas poco traumáticas, que se usan en distintos procedimientos quirúrgicos.",
-    text: "Lo más nuevo en Dental Dent : cirugía mínima te invasiva (piezoeléctrico para cirugía ), lo último y mejor en tecnología dental benéficios : ",
+    text: "Lo más nuevo en Dental Churubusco : cirugía mínima te invasiva (piezoeléctrico para cirugía ), lo último y mejor en tecnología dental benéficios : ",
     text2: "No hay sangrado casi porque el corte es ultrasónico ",
     text3: "No hay inflamación porque el ultrasonido además de ir cortando va desinfectando",
     text4: "Con menos probabilidad de infección y sin dolor."
@@ -99,7 +99,7 @@ const infoModal = [
     img: "images/ortognatica.png",
     info: "Es la preparación previa a la cirugía ortognática esto se trabaja en conjunto con el cirujano maxilofacial.",
     text: "La cirugía ortognática solo se puede realizar en un quirofano. ",
-    text2: "Pero en Dental Dent hacemos la preparación quirurgica previa durante y despues de la cirugía para que los resultados sean  conforme al plan de tratamiento.",
+    text2: "Pero en Dental Churubusco hacemos la preparación quirurgica previa durante y despues de la cirugía para que los resultados sean  conforme al plan de tratamiento.",
     text3: "Cuando  el paciente toma la decisión de realizarse el  tratamiento de ortodoncia  con cirugía ortognática  no lo debe  plantear  nunca por motivos  meramente estéticos sino por razones funcionales y preservación de la salud dentaria",
     text4: "Este tipo de tratamientos requiere la colaboración estrecha del ortodoncista y del cirujano maxilofacial"
    },
@@ -108,7 +108,7 @@ const infoModal = [
     title: "Acupuntura aplicada a la Odontología",
     img: "images/acupuntura.png",
     info: "En odontología la acupuntura se usa para tratar una serie de enfermedades y trastornos y para facilitar terapias dentales.",
-    text: "En Dental Dent se ocupa la acupuntura  como un metodo de tratamiento complementario y las diferentes afecciones donde se puede emplear son: ",
+    text: "En Dental Churubusco se ocupa la acupuntura  como un metodo de tratamiento complementario y las diferentes afecciones donde se puede emplear son: ",
     text2: "Trismos, problemas de la articulación temporomandibular",
     text3:"Bruxismo, Parestesia y Neuralgia del trigémino",
     text4: "La acupuntura debe emplearse sólo despues de un diagnostico completo del estado del paciente."
@@ -129,28 +129,22 @@ for(let i = 0; i < modalBtns.length; i++){
         containerServices.innerHTML = '';
         let evento = e.currentTarget.id;
         modalServices.classList.add('showServices');
-     infoModal.filter(info => info.id == evento).map(info =>{
-        containerServices.innerHTML += `
-        <h2 id="titleService">${info.title}</h2>
-        <img src=${info.img} alt="" id="imgService">
-        <p id="textServices">${info.info}</p>
-        <p id="textServices">${info.text}</p>
-        <ul id="ul-info">
-              <li>${info.text2}</li>
-              <li>${info.text3}</li>
-              <li>${info.text4}</li>
+      infoModal.filter(info => info.id == evento).map(info =>{
+          containerServices.innerHTML += `
+          <h2 id="titleService">${info.title}</h2>
+          <img src=${info.img} alt="" id="imgService">
+          <p id="textServices">${info.info}</p>
+          <p id="textServices">${info.text}</p>
+          <ul id="ul-info">
+                <li>${info.text2}</li>
+                <li>${info.text3}</li>
+                <li>${info.text4}</li>
+                
               
-             
-              </ul>
-        <a href="tel:5522708672" target="_blank">Agendar cita</a>
-        `
-        
-     })
-       
-       
-      
-        
-        
+                </ul>
+          <a href="tel:5626260039" target="_blank">Agendar cita</a>
+          `
+      })
     })
 }
 
