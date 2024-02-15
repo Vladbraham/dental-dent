@@ -9,10 +9,11 @@ html{
 }
 :root {
   --main-texto-color: #313131;
-  --main-principal-color: #9161b3;
-  --main-second-color: #533a8a;
+  --main-principal-color: #336699;
+  --main-second-color: #336699;
   --main-size-h2: 2.1em;
   --main-size-p: 0.9em;
+  --swiper-navigation-size: 25px !important;
   --main-size-h2-desk: 2.5em;
   --main-size-p-desk: 1.2em;
 }
@@ -51,6 +52,9 @@ header {
   color: #fff;
   font-size: 1.2em;
 }
+.header-top a:hover {
+  text-decoration: underline;
+}
 .container-menu {
   width: 100%;
   display: flex;
@@ -79,6 +83,38 @@ header {
   transition: 0.9s;
   z-index: 900;
 }
+.nosotros {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 40px 0;
+  background-color: var(--main-principal-color);
+  margin-bottom: 30px;
+}
+.nosotros .container-nosotros {
+  width: 100%;
+  max-width: 1200px;
+  padding: 0 1rem;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 20px;
+  color:  white;
+}
+.nosotros .txt h3 {
+  text-align: center;
+  font-size: var(--main-size-h2);
+  margin-bottom: 10px;
+}
+.nosotros .txt p {
+  text-align: justify;
+  font-size: var(--main-size-p);
+}
+.nosotros .container-nosotros img {
+  width: 100%;
+  border-radius: 10px;
+}
 .menu-show {
   left: -10%;
   transition: 0.9s;
@@ -90,6 +126,14 @@ header {
   font-size: 1.3em;
   color: #fff;
   margin: 20px auto;
+  transition: all 0.2s linear;
+}
+.index-menu a:hover {
+  text-decoration: underline;
+}
+#contacto-header:hover {
+  transition: all 0.2s linear;
+  background-color: #000;
 }
 .icon-menu {
   width: 40px;
@@ -200,6 +244,9 @@ main {
   border-radius: 10px;
   border: none;
   font-weight: 800;
+}
+.container-texto-hero a:hover {
+  color: black;
 }
 .answer-text{
   color: var(--main-texto-color);
@@ -422,8 +469,9 @@ animation-iteration-count: 2;
 .services {
   width: 100%;
   overflow: hidden;
-  margin: auto;
+  margin: 0 auto;
   text-align: center;
+  padding: 40px 0;
 }
 
 .container-services {
@@ -728,6 +776,7 @@ footer h3 {
       align-items: center;
       position: relative;
       overflow: hidden;
+      padding: 0 1rem;
     }
     .carousel{
       width: 300px;
@@ -838,7 +887,7 @@ footer h3 {
     width: 150px;
     height: 180px;
     margin: auto;
-    border: 2px solid #533a8a;
+
     padding: 7px;
     border-radius: 7px;
   }
@@ -851,7 +900,6 @@ footer h3 {
     width: 170px;
     height: 170px;
     margin: auto;
-    border: 2px solid #533a8a;
     padding: 7px;
     border-radius: 7px;
   }
@@ -887,8 +935,6 @@ footer h3 {
   }
   :root {
     --main-texto-color: #313131;
-    --main-principal-color: #9161b3;
-    --main-second-color: #533a8a;
     --main-size-h2: 2.5em;
     --main-size-p: 1.2em;
   }
@@ -905,7 +951,7 @@ footer h3 {
   }
 
   .header-top {
-    background-color: #9161b3;
+
     text-align: center;
     padding: 10px;
     width: 100%;
@@ -952,7 +998,7 @@ footer h3 {
   }
   #contacto-header {
     display: block;
-    background-color: #9161b3;
+    background-color: var(--main-principal-color);
     border: none;
     padding: 10px;
     width: 150px;
@@ -1079,7 +1125,7 @@ footer h3 {
     width: 350px;
     height: 190px;
     margin: auto;
-    border: 2px solid #533a8a;
+
     padding: 7px;
     border-radius: 7px;
   }
@@ -1212,7 +1258,7 @@ footer h3 {
     gap: 7px;
   }
   .name-opinion{
-    color: #533a8a;
+
     font-size: 1.2em;
     font-weight: 800;
   }
@@ -1252,7 +1298,7 @@ footer h3 {
     color: #fff;
   }
   .container-modal-services{
-    background-color: #533a8a;
+
     width: 70%;
     height: 85%;
     margin-top: 0px;
@@ -1282,8 +1328,7 @@ footer h3 {
   }
   :root {
     --main-texto-color: #313131;
-    --main-principal-color: #9161b3;
-    --main-second-color: #533a8a;
+
     --main-size-h2: 2.5em;
     --main-size-p: 1em;
   }
@@ -1301,7 +1346,7 @@ footer h3 {
   }
 
   .header-top {
-    background-color: #9161b3;
+
     text-align: center;
     padding: 10px;
     display: flex;
@@ -1366,7 +1411,7 @@ footer h3 {
   }
   #contacto-header {
     display: block;
-    background-color: #9161b3;
+
     border: none;
     padding: 10px;
     width: 150px;
@@ -1522,7 +1567,7 @@ footer h3 {
     width: 290px;
     height: 200px;
     margin: auto;
-    border: 2px solid #533a8a;
+
     padding: 7px;
     border-radius: 7px;
   }
@@ -1622,7 +1667,7 @@ object-fit: contain;
 }
 .text-box h4{
 font-size: 1.1em;
-color: #533a8a;
+
 
 }
 .text-box article{
@@ -1663,7 +1708,7 @@ content: '';
 position: absolute;
 width: 6px;
 height: 100%;
-background-color: #533a8a;
+
 top: 0;
 left: 50%;
 margin-left: -3px;
@@ -1685,7 +1730,7 @@ animation-iteration-count: 2;
 }
 @media (min-width: 1200px) {
   .container-modal-services{
-    background-color: #533a8a;
+
     width: 60%;
     height: 90%;
     margin-top: 0px;
@@ -1714,8 +1759,7 @@ animation-iteration-count: 2;
   }
   :root {
     --main-texto-color: #313131;
-    --main-principal-color: #9161b3;
-    --main-second-color: #533a8a;
+
     --main-size-h2: 2.5em;
     --main-size-p: 1.2em;
   }
@@ -1729,7 +1773,7 @@ animation-iteration-count: 2;
   }
 
   .header-top {
-    background-color: #9161b3;
+
     text-align: center;
     padding: 10px;
   }
@@ -1775,7 +1819,7 @@ animation-iteration-count: 2;
   }
   #contacto-header {
     display: block;
-    background-color: #9161b3;
+
     border: none;
     padding: 10px;
     width: 150px;
@@ -1910,7 +1954,6 @@ animation-iteration-count: 2;
     width: 290px;
     height: 250px;
     margin: auto;
-    border: 2px solid #533a8a;
     padding: 7px;
     border-radius: 7px;
     display: flex;
