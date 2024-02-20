@@ -142,7 +142,7 @@ for(let i = 0; i < modalBtns.length; i++){
                 
               
                 </ul>
-          <a href="tel:5626260039" target="_blank">Agendar cita</a>
+          <a href="https://wa.me/525626260039?text=Buenas tardes, solicito información sobre " target="_blank">Agendar cita</a>
           `
       })
     })
