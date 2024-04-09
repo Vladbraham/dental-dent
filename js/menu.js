@@ -15,11 +15,12 @@ btnBoton.addEventListener("click", () => {
   }
 });
 
-infoDr.addEventListener("click", ()=>{
-  modalDr.classList.add("showInfoDr");
-})
-
-modalDr.addEventListener("click", () =>{
-  modalDr.classList.remove('showInfoDr')
-});
-
+if (infoDr && modalDr) {
+  infoDr.addEventListener("click", ()=>{
+    modalDr.classList.add("showInfoDr");
+  })
+  
+  modalDr.addEventListener("click", () =>{
+    modalDr.classList.remove('showInfoDr')
+  })  
+}

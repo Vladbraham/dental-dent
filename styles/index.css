@@ -228,6 +228,9 @@ main {
 .sliderVertical{
   height: 100%;
 }
+.slide img {
+  border-radius: 15px;
+}
 .container-texto-hero p {
   color: var(--main-texto-color);
   font-size: 1.5em;

@@ -91,76 +91,6 @@
         
         </div>
       </div>
-      <!--<div class="about" id="nosotros">
-        <h3>¿Quien esta a cargo de Dental Churubusco?</h3>
-        <div class="timeline">
-          <div class="container left-container"  data-aos="fade-right"    data-aos-duration="1500">
-            <img src="images/icono-linea.png" alt="" class="img-linea">
-            <div class="text-box">
-              <div class="photo">
-                <img src="images/foto4-dental-dent.png" alt="">
-                <h4>Mi nombre es: Liliana Samahara Aldana Acosta</h4>
-              </div>
-              
-            
-              <article>Soy Cirujana Dentista egresada de la UNAM, desde el año 2007 a la fecha, también soy especialista en ortodoncia y ortopedia maxilar desde el 2009. Hize 2 diplomados en implantología oral y un diplomado en rehabilitación protésica sobre implantes. </article>
-            </div>
-          </div>
-          <div class="container right-container" data-aos="fade-left"   data-aos-duration="1500">
-            <img src="images/icono-linea.png" alt="" class="img-linea">
-            <div class="text-box">
-              <div class="photo">
-                <img src="images/aromaterapia.jpg" alt="">
-                <h4>Preocupada por el miedo que representa ir al dentista</h4>
-              </div>
-              
-              <article>  Tome un curso de aromaterapia, musicoterapia para que tu consulta sea más relájante, además de ser Acupunturista todo enfocado a la odontología. </article>
-            </div>
-          </div>
-          <div class="container left-container" data-aos="fade-right"   data-aos-duration="1500">
-            <img src="images/icono-linea.png" alt="" class="img-linea">
-            <div class="text-box">
-              <div class="photo">
-                <img src="images/foto1-dental-dent.jpg" alt="">
-                <h4>En mi consultorio tengo colegas colaboradores</h4>
-              </div>
-              <article> Que cuentan también con excelente  preparación en la rama odontológica.
-                Mi misión es: “Dar un servicio de calidad a mis pacientes como si fueran mi familia”. </article>
-            </div>
-          </div>
-          <div class="container right-container" data-aos="fade-left"   data-aos-duration="1500">
-            <img src="images/icono-linea.png" alt="" class="img-linea">
-            <div class="text-box">
-              <div class="photo">
-                <img src="images/foto5-dental-dent.png" alt="">
-                <h4>Mi compromiso es brindar calidad y seguridad en sus tratamientos dentales por eso estoy en constante preparación, tengo:</h4>
-              </div>
-              <article><ul>
-                <li> Diplomado Implantología oral básica (Ciore)</li>
-                <li> Diplomado Implantología oral avanzada (Ciore)  </li>
-                <li> Diplomado Rehabilitación protésica sobre implantes (Ciore)</li>
-                <li> Curso en Acupuntura y medicina tradicional china (Ming Men)</li>
-                <li>Cursos : Manejo de tejidos blandos, Elevación del seno  maxilar , Ortoimplantes , Microimplantes para sobredentaduras, Resinas inyectadas. </li>
-              </ul> </article>
-            </div>
-          </div>
-          <div class="container left-container" data-aos="fade-right"   data-aos-duration="1500">
-            <img src="images/icono-linea.png" alt="" class="img-linea">
-            <div class="text-box">
-              <div class="photo">
-                <img src="images/foto3-dental-dent.png" alt="">
-                <h4>Y tengo certificaciones que me avalan:</h4>
-              </div>
-              <article><ul>
-                <li>Certificación como cirujano Dentista por Universidad de Morelos</li>
-                <li>Certificación en ortodoncia y ortopedia maxilar por  Colegio de Especialistas en Ortodoncia de México AC.</li>
-              </ul></article>
-            </div>
-          </div>
-          
-          
-        </div>
-      </div>-->
       <section class="nosotros" id="nosotros">
         <div class="container-nosotros">
           <div class="txt">
@@ -176,22 +106,22 @@
         <div class="container-promos">
           <div class="my-slider">
             <div class="slide">
-              <img src="images/promos/promo-1.webp" alt="Promociones" />
+              <img src="images/promos/promoscurubusco.webp" alt="Promoción limpieza dental con ultrasonido" />
             </div>
             <div class="slide">
-              <img src="images/promos/promo-2.webp" alt="Promociones" />
+              <img src="images/promos/promoscurubusco2.webp" alt="Promoción de limpieza dental más blanqueamiento" />
             </div>
             <div class="slide">
-              <img src="images/promos/promo-3.webp" alt="Promociones" />
+              <img src="images/promos/promoscurubuscoc.webp" alt="Promoción primera consulta" />
             </div>
             <div class="slide">
-              <img src="images/promos/promo-1.webp" alt="Promociones" />
+              <img src="images/promos/promoscurubusco.webp" alt="Promoción limpieza dental con ultrasonido" />
             </div>
             <div class="slide">
-              <img src="images/promos/promo-2.webp" alt="Promociones" />
+              <img src="images/promos/promoscurubusco2.webp" alt="Promoción de limpieza dental más blanqueamiento" />
             </div>
             <div class="slide">
-              <img src="images/promos/promo-3.webp" alt="Promociones" />
+              <img src="images/promos/promoscurubuscoc.webp" alt="Promoción primera consulta" />
             </div>
           </div>
         </div>
@@ -503,7 +433,9 @@
     </main>
     <footer>
       <h3>
-        Dental Churubusco 2024 © | Página Desarrollada por Agencia de Marketing
+        Dental Churubusco 
+        <span id="year"></span>
+        © | Página Desarrollada por Agencia de Marketing
         Dentarios ©
       </h3>
     </footer>
@@ -516,6 +448,11 @@
   <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
 
   <!-- Initialize Swiper -->
+  <script>
+    const $year = document.getElementById('year')
+    const year = new Date().getFullYear()
+    $year.innerHTML = year
+  </script>
   <script>
     var swiper = new Swiper(".sliderVertical", {
       direction: "vertical",
